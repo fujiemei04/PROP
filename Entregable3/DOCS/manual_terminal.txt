@@ -1,0 +1,113 @@
+Help.
+usage: 
+	help [<command>]
+	h [<command>]
+Show all commands' usage.
+	<command>: Indicates the command to show information about.
+
+Add new author.
+usage: 
+	newAuthor author_name...
+	na author_name...
+Adds every 'author_name' to the authors list. System will notify if Author was added successfully or the reason of why it was not added.
+
+List authors.
+usage: 
+	listAuthors [<prefix>]
+	la [<prefix>]
+List authors saved in the system.
+	<prefix>: Indicates the prefix to filter author list with.
+
+Remove authors.
+usage: 
+	removeAuthor [author_name...]
+	ra [author_name...]
+Remove all authors stored.
+author_name: Indicates what stored authors want to be removed. System will notify if the Authors were removed successfully or the reason of why they were not removed.
+
+New document.
+usage: 
+	newDocument document_author document_title
+	nd document_author document_title
+Create new document.
+document_author: Indicates the new document author's name.
+document_title: Indicates the new document title.
+System will notify if the document was created successfully or the reason of why not.
+
+List documents.
+usage: 
+	listDocuments [author_name...]
+	ld [author_name...]
+List existing documents. If author_name is indicated, only list the author's documents.
+
+Edit document.
+usage: 
+	editDocument document_author document_title
+	ed document_author document_title
+Execute the console interface of document edit.
+At first it will print the actual text of the file. Then you can write the new data.
+Use commands <SAVE> and <END> to save the document and end the edition respectively.
+
+Print document.
+usage: 
+	printDocument document_author document_title
+	pd document_author document_title
+Print document's content.
+document_author: Indicates the document author's name.
+document_title: Indicates the document title.
+System will notify if the document does not exist.
+
+Remove document.
+usage: 
+	removeDocument <document_author document_title>...
+	rd <document_author document_title>...
+Remove document specified by document_author and document_title.
+
+Remove document.
+usage: 
+	removeDocument <document_author document_title>...
+	rd <document_author document_title>...
+Remove document specified by document_author and document_title.
+
+Find similar.
+usage: 
+	findSimilar document_author document_title n
+	fs findSimilar document_author document_title n
+Search n similar documents.
+document_author: Indicates the author of the reference document.
+
+document_title: Indicates the title of the reference document.
+
+n: Indicates how many documents will the software return.
+
+New boolean expression.
+usage: 
+	newBooleanExpression boolean_expression
+	nbe boolean_expression
+Add new boolean expression. And return the id of the new boolean expression.
+boolean_expression: is the new boolean expression to add
+
+List boolean expression.
+usage: 
+	listBooleanExpression 
+	lbe
+List all boolean expression stored with its identifier.
+Remove boolean expression.
+usage: 
+	removeBoleeanExpression n
+	rbe n
+Remove boolean expression with id n.
+n: indicate the boolean expression to remove.
+
+Advanced search
+usage: 
+	advancedSearch 
+	as n
+Search all the documents that satisfy n boolean expression.
+n: Indicates the id of the boolean expression
+
+Exit.
+usage: 
+	exit
+Close the application properly.
+

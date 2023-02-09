@@ -1,0 +1,14 @@
+run_console.sh
+	executable del software per consola
+
+run.sh
+	executable de la aplicació
+
+Joc_Assaig.pdf
+	Documentació sobre els jocs d'assaig de la aplicació
+
+seshat_console.jar
+	Compilat de la aplicació per funcionar en consola
+
+seshat.jar
+	Compilat de la aplicació per funcionament normal

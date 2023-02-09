@@ -1,0 +1,11 @@
+Explicación de clases(entregaAnterior).pdf
+	Document on estan descrites les clases del projecte
+
+relacio classe-membre.txt
+	Document que relaciona les clases del codi amb l'integrant del grup que les ha fet
+
+Manual.pdf
+	Manual de la aplicació
+
+manual_terminal.txt
+	Manual de la aplicació en format de terminal

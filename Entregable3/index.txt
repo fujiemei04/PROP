@@ -1,0 +1,8 @@
+/DOCS/:
+	Directori contenedor de la documentacio demanada per la tercera entrega.
+
+/FONTS/
+	Directori contenedor del projecte i del makefile per compilar-ho
+
+/EXE/:
+	Executables del projecte i jocs d’assaig complets. 

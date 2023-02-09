@@ -1,0 +1,38 @@
+/*** PERSISTENCE ***/
+ControllerPersistence				-> Héctor
+SaveData					-> Héctor
+SaveDocument					-> Héctor
+SavePlainText					-> Héctor
+SaveSerialized					-> Héctor
+SaveXML						-> Héctor
+
+/*** DOMAIN ***/
+ControllerDomain				-> Héctor
+Author						-> Jana
+AuthorSet					-> Jana
+AuthorTitleList					-> Fujie
+BooleanExpressionsSet				-> Jan
+BooleanExpression				-> Jan
+Node						-> Jan
+Document					-> Fujie
+DocumentSet					-> Héctor
+VectorialSpace					-> Fujie
+
+/*** PRESENTATION ***/
+AuthorBox					-> Jan
+AuthorList					-> Jana
+AuthorView					-> Jan
+BooleanExpresion				-> Jan
+DocumentBox					-> Jana
+DocumentEditor					-> Jana
+DocumentList					-> Fujie
+DocumentView					-> Fujie
+MainWindow					-> Héctor
+NewDocument					-> Fujie
+
+/*** STD_EXTEND ***/
+Pair						-> Héctor
+
+/*** Src ***/
+Seshat						-> Héctor
+Seshat_Terminal					-> Héctor

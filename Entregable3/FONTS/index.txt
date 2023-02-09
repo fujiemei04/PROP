@@ -1,0 +1,8 @@
+/src/
+	clases definitives del projecte sense compilar
+
+/out/
+	clases compilades del projecte
+
+makefile
+	ficher makefile per compilar el projecte
